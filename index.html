@@ -10,7 +10,7 @@
 <!-- ЗМІСТ -->
 <body>
 <!-- ШАПКА СТОРІНКИ -->
-    <header class="page-header">
+<header class="page-header">
 <!-- Посилання на соцмережі -->
         <div class="header__block-1">
           <h1 class="header__tagline">
@@ -88,14 +88,58 @@
     </header>
 <!-- КОНТЕНТ СТОРІНКИ -->
     <main>
-       <!-- Герой (Hero)-->
-       <section class="hero"></section>
-         <!-- Logo -->
-       <section class="logo"></section>
-        <!-- Sponsor brand -->
-        <section class="sponsor brand"></section>
-         <!-- Sponsor brand -->
-         <section class="sponsor brand"></section>
+<!-- Герой (Hero)-->
+<section class="hero"></section>
+<!-- Sponsor brand -->
+<section class="sponsor brand">
+          <ul>
+            <li>
+              <svg class="sponsor__brand-uz" height="140px" width="50px"><use xlink:href="#sponsor__brand-uz"></use></svg>
+            </li>
+            <li>
+              <svg class="sponsor__brand-nike" height="140px" width="50px"><use xlink:href="#sponsor__brand-nike"></use></svg>
+            </li>
+            <li>
+              <svg class="sponsor__brand-uz" height="140px" width="50px"><use xlink:href="#sponsor__brand-uz"></use></svg>
+            </li>
+          </ul>
+         </section>
+<!-- club__news -->
+<section class="club__news">
+          <svg class="club__news-decor" height="31px" width="25px"><use xlink:href="#club__news-decor"></use></svg>
+          <h2 class="club__news-title">Клубні новини</h2>
+          <!-- club news nav -->
+          <nav class="club__news-nav"> 
+          <ul>
+            <li class="club__news-link"><a href="" class="">Клубні новини</a></li>
+            <li class="club__news-link"><a href="" class="">Доросла команда</a></li>
+            <li class="club__news-link"><a href="" class="">Новини ДЮСШ</a></li>
+          </ul>
+          </nav>
+          <!-- main news -->
+          <ul class="main__news">
+            <li class="main__news-1">
+              <a href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/">
+                <img
+                  src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?w=640"
+                  alt="Рудий кіт"
+                  width="640"
+                />
+              </a>
+            </li>
+            <li class="main__news-2"></li>
+          </ul>
+          <!-- other news -->
+          <ul class="other--news">
+            <li class="other--news-1"></li>
+            <li class="other--news-2"></li>
+            <li class="other--news-3"></li>
+            <li class="other--news-4"></li>
+            <li class="other--news-5"></li>
+            <li class="other--news-6"></li>
+            <li class="other--news-7"></li>
+          </ul>
+         </section>
     </main>
 <!-- ПІДВАЛ СТОРІНКИ -->
     <footer> </footer>
@@ -152,6 +196,20 @@
                 <path d="M14.316 0h10.412l-14.316 32h-10.412l14.316-32z"></path>
                 <path d="M30.316 0h10.412l-14.316 32h-10.412l14.316-32z"></path>
                 </symbol>
+                 <!-- Sponsor brand -->
+                 <symbol id="sponsor__brand-uz" viewBox="0 0 90 32">
+                  <path d="M34.668 7.939c2.602 0 3.869 1.002 3.869 2.365s-1.277 2.365-3.869 2.365h-2.573l-3.202 6.686h6.2c2.786 0 3.971 0.963 3.971 2.317s-1.185 2.322-3.971 2.322h-8.444l-3.869 8.006h11.399c8.933 0 13.378-3.854 13.378-8.897 0.041-1.535-0.325-3.054-1.062-4.404s-1.816-2.482-3.132-3.284c2.365-1.561 3.908-3.854 3.908-6.571 0-5.472-4.749-8.844-12.285-8.844h-11.404l-7.255 15.126-7.235-15.126h-9.093l11.685 24.673-3.463 7.327h8.947l11.549-24.061h5.949z"></path>
+                  <path d="M50.536 13.642h30.359l-3.54-7.457c-1.036-1.887-2.566-3.459-4.428-4.549s-3.986-1.655-6.145-1.636h-18.344c2.129 2.26 3.314 5.244 3.313 8.343-0.014 1.833-0.428 3.641-1.214 5.299z"></path>
+                  <path d="M50.783 18.358c0.81 1.649 1.227 3.463 1.219 5.299 0.035 1.564-0.266 3.117-0.883 4.556s-1.534 2.73-2.691 3.787h41.163l-6.457-13.642h-32.351z"></path>
+                  </symbol>
+                  <symbol id="sponsor__brand-nike" viewBox="0 0 90 32">
+                    <path d="M12.698 0.165c-0.51 0.347-0.862 0.804-1.318 1.255-0.51 0.5-0.729 0.877-1.215 1.359-1.877 1.858-5.253 6.501-6.589 8.847-1.555 2.717-3.188 6.166-3.577 9.548v2.845c0.158 1.237 0.547 2.425 1.239 3.54 3.243 5.228 10.373 4.941 15.571 3.644 2.794-0.701 8.192-2.864 11.205-4.216 1.263-0.573 2.435-1.024 3.723-1.566 4.919-2.065 9.65-4.076 14.532-6.172 2.435-1.054 4.755-2.041 7.196-3.089 2.478-1.066 4.822-2.108 7.294-3.126 7.069-2.931 14.539-6.391 21.626-9.371 0.486-0.201 6.753-2.803 7.215-3.211-0.886 0.079-18.638 4.935-20.575 5.417l-26.538 7.013c-3.953 0.981-7.828 2.102-11.666 3.174-4.385 1.231-13.652 4.417-18.225 0.676-0.747-0.615-1.263-1.097-1.785-1.931-3.389-5.404 1.603-13.398 1.889-14.635h0.14l-0.115-0.165-0.024 0.165z"></path>
+                    </symbol>
+<!-- header decor -->
+<symbol id="club__news-decor" viewBox="0 0 41 32">
+  <path d="M14.316 0h10.412l-14.316 32h-10.412l14.316-32z"></path>
+  <path d="M30.316 0h10.412l-14.316 32h-10.412l14.316-32z"></path>
+  </symbol>
      </svg>
 </body>
 </html>
